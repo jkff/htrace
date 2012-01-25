@@ -1,0 +1,24 @@
+Name: htrace
+Category: Debug
+Version: 0.1
+Cabal-version: >= 1.2
+Build-type: Simple
+Copyright: Eugene Kirpichov
+Maintainer: ekirpichov@gmail.com    
+Author: Eugene Kirpichov
+License: BSD3
+License-File: LICENSE
+Synopsis: Hierarchical tracing for debugging of lazy evaluation
+Description:
+  Hierarchical tracing (like Debug.Trace.trace but with indentation)
+  for debugging of lazy evaluation
+Cabal-Version: >= 1.6
+
+Source-repository head
+  type: git
+  location: git://github.com/jkff/htrace.git
+
+Library
+  Build-Depends: base -any
+  Exposed-modules: Debug.HTrace
+
